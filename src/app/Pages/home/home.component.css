@@ -1,0 +1,25 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  overflow: hidden;
+  background-color: #f6f8fc;
+}
+
+.logo {
+  width: 192px;
+  height: auto;
+  z-index: 3;
+  margin-top: 43px;
+  margin-left: 51px;
+}
+.logo-body {
+  width: 100%;
+}
+.pokemon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,9 @@
+<div class="body">
+  <div class="logo-body">
+    <img class="logo" src="../../../assets/images/Logo.png" alt="" />
+  </div>
+  <app-search (search)="searchPokemon($event)"></app-search>
+</div>
+<div class="pokemon-container">
+  <app-card [pokemons]="filteredPokemons"></app-card>
+</div>

@@ -1,0 +1,15 @@
+<div class="search-container">
+  <img class="logo" src="../../../assets/images/Logo.png" alt="" />
+  <div class="search-bar">
+    <input
+      class="input"
+      type="text"
+      placeholder="Search e.g., ditto or pikachu"
+      [(ngModel)]="searchTerm"
+      (keyup.enter)="searchPokemon()"
+    />
+    <button class="btn" (click)="searchPokemon()">
+      <img src="../../../assets/images/icon.svg" alt="Search Icon" />
+    </button>
+  </div>
+</div>
